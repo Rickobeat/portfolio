@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>IAN_KIPNGETICH </title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://api.emailjs.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<div class="hud">
+  <div class="scanline"></div>
+  <nav class="nav">
+    <div class="logo"><span class="logo-sym">&gt;_</span><span class="logo-name">IAN</span></div>
+    <div class="nav-links">
+      <button class="nav-link active" onclick="showPage('home',this)">System</button>
+      <button class="nav-link" onclick="showPage('project',this)">Project</button>
+      <button class="nav-link" onclick="showPage('about',this)">About</button>
+      <button class="nav-link" onclick="showPage('contact',this)">Contact</button>
+    </div>
+  </nav>
+
+  <div id="home" class="page">
+    <div class="hero">
+      <div class="hero-header-block"><div class="hero-title-area"><div class="hero-badge"><div class="badge-dot"></div><span class="badge-txt">AVAILABLE FOR WORK · KERICHO, KE</span></div><div class="hero-name">IAN KIPNGETICH</div><div class="hero-sub">APPLIED STATISTICS · FORENSIC ANALYTICS · DevOps</div></div>
+        <div class="hero-action-column"><div class="hero-actions"><a class="btn-primary" href="assets/cv.pdf" download="Ian_Kipngetich_CV.pdf"><i class="ti ti-download"></i> DOWNLOAD_CV</a><button class="btn-outline" onclick="showPage('contact', document.querySelectorAll('.nav-link')[3])"><i class="ti ti-mail"></i> CONTACT</button></div><button class="btn-project-link" onclick="showPage('project', document.querySelectorAll('.nav-link')[1])"><i class="ti ti-folder"></i> VIEW_PRODUCTION_PROJECTS &gt;</button></div>
+      </div>
+      <div class="hero-desc-container"><p class="hero-desc">Independent developer and Applied Statistics graduate building <strong>forensic analysis platforms</strong>, <strong>statistical intelligence systems</strong>, network reconnaissance tools, and tactical desktop interfaces. Focused on Python, financial analytics, cybersecurity research, and data-driven decision systems.</p></div>
+      <div class="hero-stats-container"><div class="hero-stats"><div class="stat-cell"><div class="stat-val">4+</div><div class="stat-lbl">Yrs Exp</div></div><div class="stat-cell"><div class="stat-val">BSc</div><div class="stat-lbl">Applied Statistics</div></div><div class="stat-cell"><div class="stat-val">6+</div><div class="stat-lbl">Modules</div></div><div class="stat-cell"><div class="stat-val">KE</div><div class="stat-lbl">Based</div></div></div></div>
+      <div class="social-row"><button class="social-btn" onclick="window.open('https://x.com/rick0beat', '_blank')"><i class="ti ti-brand-x"></i> X / TWITTER</button><button class="social-btn" onclick="window.open('https://github.com/rickobeat', '_blank')"><i class="ti ti-brand-github"></i> GITHUB</button></div>
+    </div>
+    <div class="section"><div class="sec-hdr"><span>/</span> Core Stack</div><div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;"><div class="glass-panel" style="padding:1.25rem;"><div style="font-size:9px;letter-spacing:0.14em;color:#10b981;text-transform:uppercase;margin-bottom:8px;">Languages &amp; Core</div><div style="font-size:10px;color:#e5e5e5;">Python · R · SQL · Bash · Batch</div></div><div class="glass-panel" style="padding:1.25rem;"><div style="font-size:9px;letter-spacing:0.14em;color:#10b981;text-transform:uppercase;margin-bottom:8px;">Intelligence &amp; AI Deployment</div><div style="font-size:10px;color:#e5e5e5;">Network Analysis · Automation · API Integration · Threat Research</div></div><div class="glass-panel" style="padding:1.25rem;"><div style="font-size:9px;letter-spacing:0.14em;color:#10b981;text-transform:uppercase;margin-bottom:8px;">Analytics &amp; Desktop Interfaces</div><div style="font-size:10px;color:#e5e5e5;">Data Engineering · Statistical Modelling · Database schema · Dashboard Development</div></div></div></div>
+    <div class="scroll-indicator"><span>SCROLL_DOWN</span><i class="ti ti-chevron-down"></i></div>
+    <footer class="footer"><span class="foot-txt">© 2026 IAN_DEV</span><div style="display:flex;gap:1rem;align-items:center;"><button class="foot-txt" style="background:none;border:none;cursor:crosshair;color:#a1a1aa;transition:color 0.2s;" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='#a1a1aa'" onclick="toggleCookiePolicyModal(true)">[ COOKIES_POLICY ]</button><span class="foot-txt">KERICHO · KE</span></div></footer>
+  </div>
+
+  <div id="project" class="page">
+    <div class="section"><div class="sec-hdr"><span>/</span> Production Projects</div><div class="proj-card glass-panel"><div class="proj-top-bar"></div><div class="proj-inner"><div class="proj-head"><div><div class="proj-title"  style="font-size:20px;color:#71717a;"></div>MPESA_FORENSIC_AUDIT</div><div style="font-size:20px;color:#71717a;"> Secured Environment Pipeline</div><span class="proj-tag">FLAGSHIP</span></div><div class="proj-display-container"><div><p class="proj-desc">Deep forensic analysis engine for M-Pesa statements. Reconstructs ledger lines, parses transaction integrity records, detects anomalies, and generates quantitative analytical reports.</p><div class="proj-features"><div class="feat-item">Ledger chain reconstruction</div><div class="feat-item">Anomalous velocity tracking</div><div class="feat-item">Structuring pattern alerts</div><div class="feat-item">Statistical variance detection</div><div class="feat-item">Rapid transit modeling</div><div class="feat-item">Dynamic R reporting vectors</div><div class="feat-item">Tableau dashboard hooks</div><div class="feat-item">Tactical HUD UI</div><div class="feat-item">Custom LLM configurations</div><div class="feat-item">AI-assisted report summary</div></div></div><div class="collage-deck"><div class="collage-placeholder-tip"><i class="ti ti-layout-media" style="font-size:16px;"></i><span>PROJECT_MEDIA_OVERLAYS · CLICK_TO_EXPAND</span></div><div class="collage-asset img-1" onclick="openMediaModal(0)"><img src="assets/1.png" alt="UI Preview"></div><div class="collage-asset img-2" onclick="openMediaModal(1)"><img src="assets/2.png" alt="Metric Chart"></div><div class="collage-asset img-3" onclick="openMediaModal(2)"><img src="assets/3.png" alt="Log Stream"></div><div class="collage-asset img-4" onclick="openMediaModal(3)"><img src="assets/4.png" alt="AML Flags"></div><div class="collage-asset img-5" onclick="openMediaModal(4)"><img src="assets/5.png" alt="Report Export"></div><div class="collage-asset img-6" onclick="openMediaModal(5)"><img src="assets/6.png" alt="Forensic Media 6"></div><div class="collage-asset img-7" onclick="openMediaModal(6)"><img src="assets/7.png" alt="Forensic Media 7"></div></div></div><div class="dl-section"><div class="dl-label">Download Package</div><div class="dl-btns"><button class="dl-btn" onclick="showAlert('Software still under development and not available for download.', 'BUILD_LOCKED')"><i class="ti ti-download"></i> WINDOWS EXE X64</button><button class="dl-btn-outline" onclick="showAlert('Project source is not public yet.', 'ACCESS_RESTRICTED')"><i class="ti ti-code"></i> ACCESS SOURCE</button><button class="dl-btn-dashed" onclick="toggleDocModal(true)"><i class="ti ti-file-text"></i> DOCUMENTATION</button></div><div class="dl-meta">Architecture: Python 3.12 </div></div></div></div>
+
+    <div class="proj-card glass-panel"><div class="proj-top-bar"></div><div class="proj-inner"><div class="proj-head"><div><div class="proj-title" style="font-size:20px;color:#71717a;"></div>Rickobeat BOT</div><div style="font-size:20px;color:#71717a;">v1.0 · General Purpose Telegram AI</div><span class="proj-tag">LIVE</span></div><div class="proj-display-container"><div><p class="proj-desc">General purpose conversational AI assistant deployed on Telegram as <strong>@cosyspecbot</strong>. Streams model output token bytoken in real time, holds per user conversation memory, and converts raw model markdown into clean Telegram native formatting.</p><div class="proj-features"><div class="feat-item">Real time token streaming</div><div class="feat-item">Markdown → Telegram HTML formatter</div><div class="feat-item">Rolling per user conversation memory</div><div class="feat-item">Daily rate limiting w/ graceful decay</div><div class="feat-item">Group mention triggered replies</div><div class="feat-item">Flood control safe retry handling</div><div class="feat-item">Chunked long message delivery</div><div class="feat-item">Personality driven fallback replies</div></div></div><div class="collage-deck"><div class="collage-placeholder-tip"><i class="ti ti-layout-media" style="font-size:16px;"></i><span>PROJECT_MEDIA_OVERLAYS · CLICK_TO_EXPAND</span></div><div class="collage-asset img-1" onclick="openMediaModal(0,'cosyspec')"><img src="assets/cosyspec-logo.png" alt="CosySpecBot Logo"></div><div class="collage-asset img-2" onclick="openMediaModal(1,'cosyspec')"><img src="assets/cosyspec-chat.png" alt="CosySpecBot In-Chat Preview"></div></div></div><div class="dl-section"><div class="dl-label">Access Bot</div><div class="dl-btns"><button class="dl-btn" onclick="window.open('https://t.me/cosyspecbot', '_blank')"><i class="ti ti-brand-telegram"></i> OPEN_IN_TELEGRAM</button><button class="dl-btn-outline" onclick="showAlert('Project source is not public yet.', 'ACCESS_RESTRICTED')"><i class="ti ti-code"></i> ACCESS SOURCE</button><button class="dl-btn-dashed" onclick="toggleDocModal(true,'docModalCosyspec')"><i class="ti ti-file-text"></i> DOCUMENTATION</button></div><div class="dl-meta">Architecture: Python 3.12 · LLM Inference</div></div></div></div></div>
+    <div class="scroll-indicator"><span>SCROLL_DOWN</span><i class="ti ti-chevron-down"></i></div>
+    <footer class="footer"><span class="foot-txt">© 2026 IAN_DEV</span><div style="display:flex;gap:1rem;align-items:center;"><button class="foot-txt" style="background:none;border:none;cursor:crosshair;color:#a1a1aa;transition:color 0.2s;" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='#a1a1aa'" onclick="toggleCookiePolicyModal(true)">[ COOKIES_POLICY ]</button><span class="foot-txt">KERICHO · KE</span></div></footer>
+  </div>
+
+
+  <div id="about" class="page">
+    <div class="section"><div class="sec-hdr"><span>/</span> Operational Profile</div><div class="about-wrap glass-panel"><div class="about-photo-cell"><div class="photo-frame clickable" onclick="toggleAboutPhotoModal(true)"><div class="photo-corner tl"></div><div class="photo-corner tr"></div><div class="photo-corner bl"></div><div class="photo-corner br"></div><img src="assets/pic.png" alt="Ian Kipngetich" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; z-index:0;"></div><div class="photo-lbl" style="margin-bottom: 4px;">Ian Kipngetich
+      
+    </div><div class="about-socials"><button class="about-social-btn" onclick="window.open('https://x.com/rick0beat', '_blank')"><i class="ti ti-brand-x"></i> X</button><button class="about-social-btn" onclick="window.open('https://github.com/rickobeat', '_blank')"><i class="ti ti-brand-github"></i> GitHub</button></div></div><div class="about-info-cell"><div class="about-name">IAN KIPNGETICH</div><div class="about-role">Statistician · Python Developer</div><p class="about-bio">Independent developer based in <strong>KERICHO, Kenya</strong> with 4+ years of expertise building high-integrity software pipelines, custom analytics suites, and advanced data engines. Combines quantitative modeling, automated forensics frameworks, and graphical user interfaces.</p><div class="info-rows"><div class="info-row"><span class="info-key">Education</span><span class="info-val">BSc Applied Statistics with Computing</span></div><div class="info-row"><span class="info-key">Experience</span><span class="info-val">4+ years</span></div><div class="info-row"><span class="info-key">Location</span><span class="info-val">KERICHO, Kenya</span></div><div class="info-row"><span class="info-key">Speciality</span><span class="info-val">Forensic Analytics · Gui Engineering</span></div><div class="info-row"><span class="info-key">Stack Core</span><span class="info-val">Python · R · SQL · Bash </span></div><div class="info-row"><span class="info-key">Email</span><span class="info-val">iankipngetich123@gmail.com</span></div><div class="info-row"><span class="info-key">Status</span><span class="info-val green">Active &amp; Open to Engagements</span></div></div></div></div><div class="term-block glass-panel"><div class="term-bar"><span class="term-title">root@ian:~/about</span><div class="term-dots"><div class="term-dot" style="background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.3)"></div><div class="term-dot" style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3)"></div><div class="term-dot" style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3)"></div></div></div><div class="term-body"><div><span class="t-dim">$</span> <span class="t-w">whoami</span></div><div><span class="t-g">ian_kipngetich</span> <span class="t-dim">- data systems engineer · KERICHO, ke</span></div><div><span class="t-dim">$</span> <span class="t-w">cat ./skills.txt</span></div><div><span class="t-b">Quantitative Analytics</span> <span class="t-dim">|</span> <span class="t-b">R/Tableau BI</span> <span class="t-dim">|</span> <span class="t-b">LLM Config</span></div><div><span class="t-b">HUD Construction</span> <span class="t-dim">|</span> <span class="t-b">Ledger Integrity Auditing</span></div><div><span class="t-dim">$</span> <span class="t-w">echo $STATUS</span></div><div><span class="t-a">OPERATIONAL</span> <span class="t-dim">- processing contract pipelines</span></div></div></div></div>
+    <div class="scroll-indicator"><span>SCROLL_DOWN</span><i class="ti ti-chevron-down"></i></div>
+    <footer class="footer"><span class="foot-txt">© 2026 IAN_DEV</span><div style="display:flex;gap:1rem;align-items:center;"><button class="foot-txt" style="background:none;border:none;cursor:crosshair;color:#a1a1aa;transition:color 0.2s;" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='#a1a1aa'" onclick="toggleCookiePolicyModal(true)">[ COOKIES_POLICY ]</button><span class="foot-txt">KERICHO · KE</span></div></footer>
+  </div>
+
+  <div id="contact" class="page">
+    <div class="section"><div class="sec-hdr"><span>/</span> Communications Link</div><div class="contact-form-wrap glass-panel"><div style="margin-bottom:1.5rem;"><div style="font-size:13px;font-weight:700;">INITIALIZE_SECURE_CHANNEL</div><div style="font-size:10px;color:#71717a;">Transmit parameters to route requirements directly.</div></div><div class="form-grid"><div class="form-group"><label class="form-label">First Name</label><input class="form-input" id="f-fname" placeholder="John" maxlength="80" autocomplete="given-name"></div><div class="form-group"><label class="form-label">Last Name</label><input class="form-input" id="f-lname" placeholder="Doe" maxlength="80" autocomplete="family-name"></div><div class="form-group"><label class="form-label">Salutation</label><select class="form-input" id="f-sal"><option>Mr.</option><option>Ms.</option><option>Dr.</option></select></div><div class="form-group"><label class="form-label">Email</label><input class="form-input" id="f-email" type="email" placeholder="you@company.com" maxlength="120" autocomplete="email"></div><div class="form-group"><label class="form-label">Company</label><input class="form-input" id="f-company" placeholder="Acme Corp" maxlength="120" autocomplete="organization"></div><div class="form-group"><label class="form-label">Mobile</label><input class="form-input" id="f-mobile" placeholder="+254 700 000 000" maxlength="30" autocomplete="tel"></div><div class="form-group full"><label class="form-label">Message Payload</label><textarea class="form-input" id="f-msg" placeholder="Describe technical requirements..." maxlength="4000"></textarea></div><div class="form-group full" style="position:absolute; left:-9999px; top:-9999px; opacity:0; height:0; overflow:hidden;" aria-hidden="true"><label class="form-label" for="f-hp">Leave this field empty</label><input class="form-input" id="f-hp" name="f-hp" tabindex="-1" autocomplete="off"></div></div><div class="form-actions"><button class="form-submit" onclick="submitForm()"><i class="ti ti-send"></i> TRANSMIT_DATA</button><div class="success-msg" id="success-msg">✓ TRANSMISSION_COMPLETE - Message routed to ian kipngetich mail</div></div></div></div>
+    <div class="scroll-indicator"><span>SCROLL_DOWN</span><i class="ti ti-chevron-down"></i></div>
+    <footer class="footer"><span class="foot-txt">© 2026 IAN_DEV</span><div style="display:flex;gap:1rem;align-items:center;"><button class="foot-txt" style="background:none;border:none;cursor:crosshair;color:#a1a1aa;transition:color 0.2s;" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='#a1a1aa'" onclick="toggleCookiePolicyModal(true)">[ COOKIES_POLICY ]</button><span class="foot-txt">KERICHO · KE</span></div></footer>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var VALID_PAGES = ['home', 'project', 'about', 'contact'];
+    var hash = location.hash.replace('#', '');
+    var pageId = VALID_PAGES.indexOf(hash) !== -1 ? hash : 'home';
+    var target = document.getElementById(pageId);
+    if (target) target.classList.add('active');
+    var navLinks = document.querySelectorAll('.nav-link');
+    var idx = VALID_PAGES.indexOf(pageId);
+    if (navLinks[idx]) navLinks[idx].classList.add('active');
+  })();
+</script>
+
+<div id="docModal" class="hud-modal">
+  <div class="hud-modal-wrapper glass-panel">
+    <button class="hud-modal-close" onclick="toggleDocModal(false)">[ ESC_CLOSE ]</button>
+    <div class="hud-modal-content">
+      <div class="doc-hdr">M-Pesa Forensic Analysis Suite</div>
+      <div class="doc-sub">Desktop Application Environment Pipeline // System Docs</div>
+      
+      <p>A desktop application for forensic analysis of M-Pesa statements  built for AML detection, credit scoring, and transaction pattern analysis.</p>
+      
+      <div class="doc-sec-title">What It Does</div>
+      <p>Ingests M-Pesa PDF statements and turns them into a structured forensic report: transaction reconstruction, loan repayment behavior, and anti-money-laundering (AML) risk signals. Built for cases where a statement needs more scrutiny than a simple balance check  loan underwriting, dispute investigation, or compliance review.</p>
+      
+      <div class="doc-sec-title">Key Features</div>
+      <ul class="doc-list">
+        <li><strong>Forensic Reporting</strong> - A structured, 15-stage audit trail per statement: subject info → statement authenticity → transaction breakdown → income adjustments → financial ratios → cash-flow volatility → liquidity/dependency → stability indicators → gambling activity → large deposit flags → risk summary → savings behavior → digital credit exposure → final risk/stability rating → AML pattern analysis → credit decision. Each stage renders as its own report card with pass/warn/fail signal coloring.</li>
+        <li><strong>AI-Generated Summary</strong> - An integrated analysis layer sends the compiled report to a connected LLM (supports OpenAI, Anthropic, or Cohere-compatible endpoints) with a forensic-auditor system prompt, returning a plain language summary of red flags, tampering signs, AML concerns, and a final credit recommendation  with live connection diagnostics for whichever provider is configured.</li>
+        <li><strong>Risk Visualization</strong> - A radar-style sonar chart for at a glance risk exposure, plus donut and dual-bar charts for transaction category breakdowns, monthly cash flow, and digital credit exposure.</li>
+        <li><strong>AML Pattern Detection</strong> - Automated flagging of suspicious transaction patterns: structuring, fan in/fan out clustering, rapid pass-through of funds, and dormancy spikes.</li>
+        <li><strong>Loan Repayment Ratio (LRR)</strong> - A custom metric scoped to overdraft (Fuliza) transactions, measuring repayment consistency relative to usage.</li>
+        <li><strong>Currency Circulation Threat Metrics</strong> - Flags cumulative exposure from digital credit provider loans, betting/gambling fund flows, and unusually large cumulative deposits.</li>
+        <li><strong>Statement Integrity Checks</strong> - Font fingerprinting analysis to help detect tampered or doctored statements.</li>
+        <li><strong>Fast Search</strong> - Trigram indexed, debounced search across large transaction tables with no UI lag.</li>
+      </ul>
+      
+      <div class="doc-sec-title">Design Architecture</div>
+      <p>Dark terminal/HUD aesthetic  frameless window, custom drag/resize handling, unified green cyan color scheme, and animated radar/sonar visual elements. Designed to feel like a tactical analysis console rather than a typical business app but najua hujasoma hiyo yote.</p>
+      
+      <div class="doc-sec-title">Tech Stack Core</div>
+      <p>Python · Custom charting and animation layer · Pluggable LLM integration (OpenAI/Anthropic/Cohere-compatible)</p>
+    </div>
+  </div>
+</div>
+
+<div id="docModalCosyspec" class="hud-modal">
+  <div class="hud-modal-wrapper glass-panel">
+    <button class="hud-modal-close" onclick="toggleDocModal(false,'docModalCosyspec')">[ ESC_CLOSE ]</button>
+    <div class="hud-modal-content">
+      <div class="doc-hdr">Rickobeat Bot</div>
+      <div class="doc-sub">General Purpose Telegram AI Assistant // System Docs</div>
+
+      <p>A general purpose conversational AI bot running on Telegram (<strong>@cosyspecbot</strong>), built for free form chat with real time streaming responses and clean, chat native formatting.</p>
+
+      <div class="doc-sec-title">What It Does</div>
+      <p>Handles any incoming text message, private chat or group mention and streams back an LLM generated reply as it's produced, editing the message live rather than waiting for a full response. Maintains a rolling conversation window per user so replies stay contextually aware without unbounded memory growth.</p>
+
+      <div class="doc-sec-title">Key Features</div>
+      <ul class="doc-list">
+        <li><strong>Live Token Streaming</strong> - Responses are streamed from the model and edited into the chat message in near real time, with a typing indicator kept alive throughout generation.</li>
+        <li><strong>Markdown → Telegram HTML Formatter</strong> - A custom converter turns model markdown (headings, bold, inline code, fenced code blocks, tables) into Telegram safe HTML, including fixed-width table rendering and ANSI escape cleanup.</li>
+        <li><strong>Per-User Conversation Memory</strong> - A rolling history window keeps recent turns in context per user, resettable on demand via a "new chat" command.</li>
+        <li><strong>Daily Rate Limiting</strong> - Per-user daily quota with a decaying pool of varied "quota exhausted" responses before falling back to a hard stop message, plus a usage check command showing remaining requests and reset time.</li>
+        <li><strong>Group-Aware Routing</strong> - In group chats, the bot only responds when explicitly mentioned, stripping the mention out of the prompt automatically.</li>
+        <li><strong>Resilient Delivery</strong> - Handles Telegram flood control backoff, gracefully falls back to plain text if HTML formatting fails, and automatically chunks long responses across multiple messages.</li>
+        <li><strong>Personality Layer</strong> - Non text uploads (photos, documents, voice, video) are declined with a randomized, decaying pool of in-character rebuff messages rather than being processed.</li>
+      </ul>
+
+      <div class="doc-sec-title">Tech Stack Core</div>
+      <p>Python · python-telegram-bot · LLM  inference · Threaded streaming pipeline over asyncio</p>
+    </div>
+  </div>
+</div>
+
+<div id="mediaModal" class="hud-modal">
+  <div class="hud-modal-wrapper glass-panel" style="max-width:900px;">
+    <button class="hud-modal-close" onclick="toggleMediaModal(false)">[ ESC_CLOSE ]</button>
+    <div class="hud-modal-content">
+      <div class="doc-hdr" id="mediaModalTitle">Project Media</div>
+      <div class="doc-sub" id="mediaModalSub">M-Pesa Forensic Audit // Media Overlay Viewer</div>
+      <div class="media-viewer-nav" style="margin-bottom:10px;">
+        <button class="media-nav-btn" onclick="navMedia(-1)"><i class="ti ti-chevron-left"></i> PREV</button>
+        <span class="media-viewer-count" id="mediaCount">1 / 7</span>
+        <button class="media-nav-btn" onclick="navMedia(1)">NEXT <i class="ti ti-chevron-right"></i></button>
+      </div>
+      <div class="media-viewer-frame">
+        <div class="photo-corner tl"></div><div class="photo-corner tr"></div><div class="photo-corner bl"></div><div class="photo-corner br"></div>
+        <img id="mediaImage" src="assets/1.png" alt="Project media" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; z-index:0; background:rgba(4,6,8,0.95);">
+        <i class="ti ti-photo media-viewer-icon" id="mediaIcon" style="display:none;"></i>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="aboutPhotoModal" class="hud-modal">
+  <div class="hud-modal-wrapper glass-panel" style="max-width:600px;">
+    <button class="hud-modal-close" onclick="toggleAboutPhotoModal(false)">[ ESC_CLOSE ]</button>
+    <div class="hud-modal-content" style="display:flex; flex-direction:column; align-items:center; text-align:center;">
+      <div class="photo-frame" style="width:480px;height:480px;">
+        <div class="photo-corner tl"></div><div class="photo-corner tr"></div><div class="photo-corner bl"></div><div class="photo-corner br"></div>
+        <img src="assets/pic.png" alt="Ian Kipngetich" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; z-index:0; background:rgba(4,6,8,0.9);">
+      </div>
+      <div class="photo-lbl" style="margin-top:1.25rem;">Ian Kipngetich</div>
+      <div class="doc-sub" style="border-bottom:none; margin-bottom:0; margin-top:6px;">Operational Profile // Full Frame</div>
+    </div>
+  </div>
+</div>
+
+<div id="cookiePolicyModal" class="hud-modal">
+  <div class="hud-modal-wrapper glass-panel">
+    <button class="hud-modal-close" onclick="toggleCookiePolicyModal(false)">[ ESC_CLOSE ]</button>
+    <div class="hud-modal-content">
+      <div class="doc-hdr">Cookie Directive</div>
+      <div class="doc-sub">Privacy & Data Tracking Protocol // System Docs</div>
+      
+      <p>This system utilizes minimal local storage mechanisms to ensure operational continuity and security. No third-party tracking scripts are injected into your session.</p>
+      
+      <div class="doc-sec-title">Operational Cookies</div>
+      <ul class="doc-list">
+        <li><strong>Session Integrity</strong> - Maintains routing state and prevents cross-site request forgery during communications.</li>
+        <li><strong>UI Preferences</strong> - Remembers terminal HUD state and media viewer preferences (stored locally, never transmitted).</li>
+      </ul>
+
+      <div class="doc-sec-title">Analytics & Telemetry</div>
+      <p>System telemetry is disabled by default. We do not track your IP address, browser fingerprint, or interaction history across other sites. Any performance metrics gathered are strictly anonymized and used solely for optimizing the HUD.</p>
+
+      <div class="doc-sec-title">Data Transmission</div>
+      <p>Data is only transmitted when explicitly initiated by the user via the <em>Communications Link</em> (Contact page). This payload is routed securely and directly to the operational inbox without passing through data brokers.</p>
+
+      <div style="margin-top: 2.5rem; display: flex; justify-content: center;">
+        <button class="btn-primary" onclick="toggleCookiePolicyModal(false)"><i class="ti ti-check"></i> ACKNOWLEDGE_PROTOCOL</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="hudAlertOverlay" class="hud-alert-overlay">
+  <div class="hud-alert-box">
+    <div class="hud-alert-title"><i class="ti ti-alert-triangle"></i><span id="hudAlertTitle">SYSTEM_NOTICE</span></div>
+    <div class="hud-alert-msg" id="hudAlertMsg"></div>
+    <button class="hud-alert-btn" onclick="closeAlert()"><i class="ti ti-check"></i> ACKNOWLEDGE</button>
+  </div>
+</div>
+
+<div id="cookieConsentBanner" class="glass-panel" style="display: none; position: fixed; bottom: 20px; right: 20px; max-width: 380px; z-index: 1000; padding: 1.5rem; animation: alertPop 0.3s ease-out; border-color: rgba(16, 185, 129, 0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 20px rgba(16, 185, 129, 0.05);">
+  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+    <i class="ti ti-cookie" style="color: #10b981; font-size: 20px; text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);"></i>
+    <div style="font-size: 11px; font-weight: 700; color: #fff; letter-spacing: 0.1em; text-transform: uppercase;">Tracking Protocol</div>
+  </div>
+  <p style="font-size: 10px; color: #a1a1aa; line-height: 1.6; margin-bottom: 16px;">
+    This system requires operational cookies for session integrity and telemetry. Do you accept the data tracking protocol? <button onclick="toggleCookiePolicyModal(true)" style="background:none; border:none; color:#10b981; text-decoration:underline; cursor:crosshair; font-size:10px; padding:0; font-family: 'JetBrains Mono', monospace;">Read Directive</button>
+  </p>
+  <div style="display: flex; gap: 10px;">
+    <button class="btn-primary btn-parallax" onclick="acceptCookies()" style="flex: 1; padding: 10px;"><span><i class="ti ti-check"></i> ACCEPT</span></button>
+    <button class="btn-outline btn-parallax btn-deny" onclick="denyCookies()" style="flex: 1; padding: 10px;"><span><i class="ti ti-x"></i> DENY</span></button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
